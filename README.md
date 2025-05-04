@@ -12,8 +12,3 @@ This repository contains code and scripts for training and evaluating a model us
 - **`refined_train_script.py`**: Main training script for the model.
 
 For a more detailed explanation, please refer to the corresponding files.
-
-## GitHub Repository
-
-You can access the repository here:  
-[https://github.com/Steven-Zhan/FTPix2Pix](https://github.com/Steven-Zhan/FTPix2Pix)
