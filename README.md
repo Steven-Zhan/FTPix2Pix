@@ -1,4 +1,4 @@
-# DiffuBot__Predicting_Robot_Perception_50_Frames_Ahead
+# DiffuBot
 
 This repository contains code and scripts for training and evaluating a model using the Pix2Pix framework.
 
