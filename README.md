@@ -16,3 +16,32 @@ For a more detailed explanation, please refer to the corresponding files.
 ## Installation
 
 To install the required Python libraries, run the command `pip install -r requirements.txt` in the terminal.
+
+## Dataset
+
+### Data Generation
+
+Data generation mainly relies on simulation. For specific details, please refer to the [RoboTwin project repository](https://github.com/TianxingChen/RoboTwin/tree/main). This repository provides a complete set of simulation environment setup, data collection processes, and related code, helping you understand the entire data generation process.
+
+### Data Preprocessing
+
+Data preprocessing is completed by running the `data_process.py` script. This script covers key operations such as data cleaning, format conversion and so on.
+
+### Data Download
+
+You can directly download the processed data from the Hugging Face platform. The access path is [Aurora1609/RoboTwin](https://huggingface.co/datasets/Aurora1609/RoboTwin). After downloading, store it according to the default directory structure, and it can be directly used for subsequent research and experiments.
+
+## Benchmark
+
+We used the SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ratio) as the evaluation metrics.
+
+## Experiment and Result
+
+The evaluation results of the baseline and fine-tuned models are summarized in the table below.
+
+| **Model**   | **Mean SSIM** | **Mean PSNR** |
+|-------------|---------------|---------------|
+| Baseline    | 0.6161        | 11.7397       |
+| Fine-Tuned  | 0.8629        | 21.2033       |
+
+More figures and analysis can be found in our report.
