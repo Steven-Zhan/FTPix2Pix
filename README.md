@@ -37,7 +37,7 @@ We used the SSIM (Structural Similarity Index) and PSNR (Peak Signal-to-Noise Ra
 
 ## Experiment and Result
 
-The evaluation results of the baseline and fine-tuned models are summarized in the table below.
+Train our Fine-Tuned model through `main.py`, generating predicted pictures using `inference_p2p.py`, then compare the model output with ground truth by `evaluate_final.ipynb`. The final evaluation results of the baseline and fine-tuned models are summarized in the table below.
 
 | **Model**   | **Mean SSIM** | **Mean PSNR** |
 |-------------|---------------|---------------|
